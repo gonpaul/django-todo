@@ -1,0 +1,53 @@
+[
+  {
+    "model": "todo.task",
+    "pk": 1,
+    "fields": {
+      "title": "Complete Django project setup",
+      "description": "Set up the Django todo application with models, views, and templates. Ensure all CRUD operations are working correctly.",
+      "created_at": "2025-12-25T10:00:00Z",
+      "completed": true
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 2,
+    "fields": {
+      "title": "Write unit tests",
+      "description": "Create comprehensive unit tests for the Task model and all views. Test create, read, update, and delete operations.",
+      "created_at": "2025-12-25T11:00:00Z",
+      "completed": false
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 3,
+    "fields": {
+      "title": "Add user authentication",
+      "description": "Implement user authentication so that each user can only see and manage their own tasks. Add login and registration pages.",
+      "created_at": "2025-12-25T12:00:00Z",
+      "completed": false
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 4,
+    "fields": {
+      "title": "Style the application",
+      "description": "Improve the UI/UX with modern CSS styling. Add responsive design for mobile devices and improve the overall visual appeal.",
+      "created_at": "2025-12-25T13:00:00Z",
+      "completed": false
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 5,
+    "fields": {
+      "title": "Deploy to production",
+      "description": "Deploy the Django todo application to a production server. Set up environment variables, configure the database, and ensure security best practices are followed.",
+      "created_at": "2025-12-25T14:00:00Z",
+      "completed": false
+    }
+  }
+]
+
