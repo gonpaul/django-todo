@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Task</title>
+    <title>{% if object %}Edit Task{% else %}Create Task{% endif %}</title>
     <style>
         body { font-family: Arial, sans-serif; max-width: 600px; margin: 50px auto; padding: 20px; }
         .form-group { margin-bottom: 15px; }
@@ -19,7 +19,7 @@
     </style>
 </head>
 <body>
-    <h1>Create New Task</h1>
+    <h1>{% if object %}Edit Task{% else %}Create New Task{% endif %}</h1>
     
     <form method="post">
         {% csrf_token %}

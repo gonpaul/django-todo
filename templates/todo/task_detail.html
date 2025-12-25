@@ -27,6 +27,8 @@
             <strong>Created:</strong> {{ task.created_at|date:"M d, Y H:i" }}
         </div>
         <div>
+            <a href="{% url 'todo:update' task.pk %}" class="btn btn-warning">Edit</a>
+            <a href="{% url 'todo:delete' task.pk %}" class="btn btn-danger">Delete</a>
             <a href="{% url 'todo:list' %}" class="btn btn-secondary">Back to List</a>
         </div>
     </div>
